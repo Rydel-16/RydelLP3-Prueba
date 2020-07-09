@@ -1,12 +1,13 @@
-#Autor:Chalque Miñope Rydel
 
-
-
-def determinaraprobado(promedio):
+#Autor: Isabella Caballero  Moreno
+#Ejercicio que permita 
+def determinar_aprobado(promedio):
+  
     if promedio>=11:
-        resultado = "Aprobado"
+        resultado="Aprobado"
     else:
-        resultado = "Desaprobado"
+        resultado="Desaprobado"
     return resultado
-promedio= int(input("Promedio:  "))
-print(determinaraprobado(promedio))    
+
+promedio=int(input("Promedio: "))
+print(determinar_aprobado(promedio))
